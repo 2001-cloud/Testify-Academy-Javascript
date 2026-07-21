@@ -1,5 +1,5 @@
 function calculateAreaOfRectangle(length, width) {
-  let area = length * width;
+  const area = length * width;
   console.log(area);
 }
 
