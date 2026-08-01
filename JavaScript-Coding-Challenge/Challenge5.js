@@ -1,13 +1,7 @@
 const animals = ["Dog", "Cat", "Pig", "Cow", "Bird"];
 
 function reverseArray(array) {
-  let reverse = [];
-
-for (let i = array.length - 1; i >= 0; i--) {
-  reverse.push(array[i])
-};
-
-return reverse;
-
-};
+  return array.reverse();
+}
+ 
 console.log(reverseArray(animals));
